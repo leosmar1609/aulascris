@@ -1,0 +1,90 @@
+/* Estilos gerais para o body */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Estilo para o cabeçalho */
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 4px solid #0056b3;
+}
+
+
+/* Estilo para o conteúdo principal */
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Seção de conteúdo com texto */
+
+.content {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+
+/* Botão de "Voltar" */
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilo do rodapé */
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+    .content {
+        font-size: 16px;
+    }
+    .back-button {
+        padding: 8px 16px;
+    }
+}

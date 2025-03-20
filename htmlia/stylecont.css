@@ -1,0 +1,136 @@
+/* Estilos gerais para o body */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+/* Estilo para o cabeçalho */
+
+header {
+    background-color: rgba(0, 123, 255, 0.8);
+    /* Cor de fundo azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 4px solid #0056b3;
+}
+
+
+/* Estilo do formulário de contato */
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilo para a seção de informações de contato */
+
+#informacoes-contato {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#informacoes-contato h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+#informacoes-contato p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#informacoes-contato a {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+#informacoes-contato a:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+
+/* Estilo do link de voltar */
+
+a {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsividade: Ajustes em telas menores */
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+    form {
+        width: 100%;
+    }
+    #informacoes-contato {
+        width: 100%;
+    }
+}
